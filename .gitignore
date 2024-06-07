@@ -39,6 +39,7 @@
 *.pdb
 *.idb
 *.log
+*.ilk
 
 # Clang files
 *.mch
