@@ -1,3 +1,120 @@
 /fibonacci_multi_thread.py
 /bh_env
 *.html
+
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executable files
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.ncb
+*.sdf
+*.sqlite*
+
+# IDE files
+*.vcproj
+*.vcxproj
+*.opensdf
+*.suo
+*.user
+*.ipch
+*.pdb
+*.idb
+*.log
+
+# Clang files
+*.mch
+*.pdb
+*.opendb
+
+# CMake files
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Qt files
+*.qmake.stash
+*.qmake.cache
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# CodeBlocks files
+*.depend
+*.layout
+*.layout.*
+*.cbp
+*.cbt
+*.conf
+
+# Other files
+tags
+TAGS
+*.swp
+*~
+*.bak
+*.tmp
+
+# Backup files
+*.bak
+*.orig
+
+# MacOS specific files
+.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Folder config file
+.DS_Store
+
+# Icon must end with two \r
+Icon
+
+# Thumbs.db
+Thumbs.db
+
+# User-specific files
+*.user
+.idea/
+.vscode/
+*.code-workspace
+
+# Hidden files
+.*
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
