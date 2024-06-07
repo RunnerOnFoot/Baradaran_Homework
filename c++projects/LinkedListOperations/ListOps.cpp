@@ -1,6 +1,5 @@
 #include <iostream>
 
-// Node structure
 struct Node
 {
     int data;
@@ -9,7 +8,6 @@ struct Node
     Node(int value) : data(value), next(nullptr) {}
 };
 
-// Linked List class
 class LinkedList
 {
 private:
@@ -18,7 +16,6 @@ private:
 public:
     LinkedList() : head(nullptr) {}
 
-    // Function to insert a node at a specific position
     void insertNode(int data, int position)
     {
         Node *newNode = new Node(data);
@@ -47,7 +44,6 @@ public:
         temp->next = newNode;
     }
 
-    // Function to delete a node with a specific value
     void deleteNode(int data)
     {
         Node *temp = head;
@@ -76,7 +72,6 @@ public:
         delete temp;
     }
 
-    // Function to delete the entire linked list
     void deleteList()
     {
         Node *current = head;
@@ -92,7 +87,6 @@ public:
         head = nullptr;
     }
 
-    // Function to print the linked list
     void printList() const
     {
         Node *temp = head;
@@ -104,7 +98,6 @@ public:
         std::cout << "NULL" << std::endl;
     }
 
-    // Destructor to clean up the memory
     ~LinkedList()
     {
         deleteList();
